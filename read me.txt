@@ -1,0 +1,11 @@
+-- Add the following to your server.cfg --
+
+ensure scully_leo
+
+add_ace group.leo isLEO allow
+
+-- To give someone LEO perms add the following to your server.cfg, please don't ask me about other permission systems as I will not support them.
+
+add_principal identifier.discord:530698981920079882 group.leo
+
+-- If using interact sound add all the files in the sounds folder to interact-sound/client/html/sounds/
